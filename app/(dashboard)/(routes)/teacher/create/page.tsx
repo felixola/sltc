@@ -75,9 +75,7 @@ const CreatePage = () => {
                             <Link href="/">
                                 <Button
                                     type="button"
-                                    variant="ghost"
-
-                                >
+                                    variant="ghost">
                                     Cancel
                                 </Button>
                             </Link>
