@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
-export const  CoursesPage = () => {
+export const CoursePage = () => {
     return (
         <div className='p-6'>
 
