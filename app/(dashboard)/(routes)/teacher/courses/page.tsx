@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const CoursesPage = () => {
     return (
-        <div className='p-6'>
+        <div className='p-10'>
             <Link href="/teacher/create">
                 <Button>
                     New Course
