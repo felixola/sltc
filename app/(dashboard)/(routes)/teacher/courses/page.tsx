@@ -1,9 +1,7 @@
-
-import { NextPage } from 'next';
-import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
-const CoursesPage: NextPage = () => {
+const CoursesPage = () => {
     return (
         <div className='p-6'>
             <Link href="/teacher/create">
