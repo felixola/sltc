@@ -3,8 +3,8 @@ import Image from "next/image";
 export const Logo = () => {
   return (
     <Image
-      height={120}
-      width={120}
+      height={130}
+      width={130}
       alt="logo"
       src="/logo.svg"
     />

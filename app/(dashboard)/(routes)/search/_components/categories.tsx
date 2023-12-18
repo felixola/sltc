@@ -19,12 +19,12 @@ interface CategoriesProps {
 }
 
 const iconMap: Record<Category["name"], IconType> = {
-  "Englis": FcMusic,
-  "Spanish": FcOldTimeCamera,
-  "Yoruba": FcSportsMode,
-  "French": FcSalesPerformance,
-  "Hausa": FcMultipleDevices,
-  "Igbo": FcFilmReel,
+  "English": FcMusic,
+  "Yoruba": FcOldTimeCamera,
+  "Hausa": FcSportsMode,
+  "Igbo": FcSalesPerformance,
+  "Spanish": FcMultipleDevices,
+  "French": FcFilmReel,
   "Chinese": FcEngineering,
 };
 

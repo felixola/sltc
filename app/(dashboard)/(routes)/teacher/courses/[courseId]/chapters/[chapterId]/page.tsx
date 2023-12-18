@@ -74,7 +74,7 @@ const ChapterIdPage = async ({
                 <h1 className="text-2xl font-medium">
                   Chapter Creation
                 </h1>
-                <span className="text-sm text-slatew-700">
+                <span className="text-sm text-slate-700">
                   Complete all fields {completionText}
                 </span>
               </div>

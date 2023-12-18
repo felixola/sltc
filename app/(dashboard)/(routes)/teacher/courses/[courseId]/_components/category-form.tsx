@@ -66,7 +66,7 @@ export const CategoryForm = ({
   const selectedOption = options.find((option) => option.value === initialData.categoryId);
 
   return (
-    <div className="mt-6 border bg-slatew-100 rounded-md p-4">
+    <div className="mt-6 border bg-slate-100 rounded-md p-4">
       <div className="font-medium flex items-center justify-between">
         Course category
         <Button onClick={toggleEdit} variant="ghost">
@@ -83,7 +83,7 @@ export const CategoryForm = ({
       {!isEditing && (
         <p className={cn(
           "text-sm mt-2",
-          !initialData.categoryId && "text-slatew-500 italic"
+          !initialData.categoryId && "text-slate-500 italic"
         )}>
           {selectedOption?.label || "No category"}
         </p>
@@ -101,7 +101,7 @@ export const CategoryForm = ({
                 <FormItem>
                   <FormControl>
                     <Combobox
-                      options={options}
+                      options={...options}
                       {...field}
                     />
                   </FormControl>
