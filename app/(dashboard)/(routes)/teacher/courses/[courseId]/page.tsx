@@ -60,7 +60,7 @@ const CourseIdPage = async ({
     course.description,
     course.imageUrl,
     course.price,
-    course.attachments,
+    // course.categoryId,
     course.chapters.some(chapter => chapter.isPublished),
   ];
 
@@ -114,14 +114,14 @@ const CourseIdPage = async ({
               initialData={course}
               courseId={course.id}
             />
-            {/* <CategoryForm
+            <CategoryForm
               initialData={course}
               courseId={course.id}
               options={categories.map((category) => ({
                 label: category.name,
                 value: category.id,
               }))}
-            /> */}
+            />
           </div>
           <div className="space-y-6">
             <div>
