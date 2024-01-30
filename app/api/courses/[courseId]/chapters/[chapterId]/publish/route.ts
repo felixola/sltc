@@ -33,8 +33,10 @@ export async function PATCH(
     }
 
     const hasPublishedChapter = course.chapters.some((chapter) => chapter.isPublished);
+    
+    // || !course.categoryId 
 
-    if (!course.title || !course.description || !course.imageUrl || !course.categoryId || !hasPublishedChapter) {
+    if (!course.title || !course.description || !course.imageUrl || !hasPublishedChapter) {
       return new NextResponse("Missing required fields", { status: 401 });
     }
 
